@@ -52,4 +52,4 @@ class Streamlabs(commands.Cog):
         await self.websocket_connect(settings.StreamlabsWebsocketKey)
 
 def setup(bot):
-    #bot.add_cog(Streamlabs(bot))
+    bot.add_cog(Streamlabs(bot))
